@@ -39,14 +39,17 @@
         <!-- Form Login -->
         <main class="order-1 md:order-2">
             <form class="flex flex-col" method="post">
+
                 <h1 class="text-2xl md:text-3xl text-black-secondary font-extrabold">Nice to see you again</h1>
+
                 <div class="flex flex-col mt-7 gap-2">
-                    <label for="emailOrNumber"
+                    <label for="emailOrPhone"
                         class="ps-2 font-semibold hidden md:block md:text-lg text-black-primary ">Email:</label>
-                    <input type="text" name="emailOrNumber" id="emailOrNumber"
+                    <input type="text" name="emailOrPhone" id="emailOrPhone"
                         class="rounded-md focus:outline-primary bg-slate-100 px-3 py-2 md:py-3"
                         placeholder="Email or phone number" required>
                 </div>
+
                 <div class="flex flex-col mt-5 gap-2">
                     <label for="password"
                         class="ps-2 font-semibold hidden md:block md:text-lg text-black-primary">Password:</label>
@@ -54,17 +57,21 @@
                         class="rounded-md focus:outline-primary bg-slate-100 px-3 py-2 md:py-3"
                         placeholder="Enter password" required>
                 </div>
+
                 <a href="#" class="text-end text-blue hover:underline mt-5">Forgot password?</a>
+
                 <div class=" flex flex-col mt-7 gap-14">
                     <button type="submit"
                         class="bg-primary hover:bg-[#6038cf] hover:shadow-lg py-3 text-white md:text-lg font-roboto font-bold rounded-lg">Sign
-                        in</button>
+                        in
+                    </button>
                     <button type="submit"
                         class="flex items-center gap-2 justify-center bg-black-primary hover:bg-black-secondary hover:shadow-lg py-2 text-white md:text-lg font-bold rounded-lg"><img
-                            src="./assets/google-svgrepo-com.svg" alt="google icon" class="w-9 h-9"> Or sign in
-                        with
-                        Google</button>
+                            src="./assets/google-svgrepo-com.svg" alt="google icon" class="w-9 h-9">
+                        Or sign in with Google
+                    </button>
                 </div>
+
                 <p class="text-center mt-7 font-medium text-black-secondary">
                     Don't have an account?
                     <a href="#" class="text-primary hover:underline font-medium">Sign up now</a>

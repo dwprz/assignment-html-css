@@ -585,6 +585,10 @@ video {
   height: 100vh;
 }
 
+.max-h-screen {
+  max-height: 100vh;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
